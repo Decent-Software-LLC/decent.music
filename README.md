@@ -1,6 +1,15 @@
 # decent.music
 
-The coming-soon page for [decent.music](https://decent.music).
+An interactive globe for discovering leading concert venues around the world.
 
-This is a dependency-free static site. Open `index.html` directly or serve the
-directory with any static web server.
+## Local development
+
+```sh
+npm install
+npm run dev
+```
+
+The map uses MapLibre GL JS with an OpenFreeMap style. Set
+`VITE_MAP_STYLE_URL` to use a different MapLibre-compatible style.
+
+Venue data is loaded from `public/data/venues.geojson`.
