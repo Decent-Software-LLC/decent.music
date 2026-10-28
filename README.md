@@ -13,3 +13,5 @@ The map uses MapLibre GL JS with an OpenFreeMap style. Set
 `VITE_MAP_STYLE_URL` to use a different MapLibre-compatible style.
 
 Venue data is loaded from `public/data/venues.geojson`.
+
+See [STYLE_GUIDE.md](STYLE_GUIDE.md) for the industrial coliseum visual system.
