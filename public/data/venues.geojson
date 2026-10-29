@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "decent-music-top-concert-venues",
-  "generated": "2026-10-27",
+  "generated": "2026-10-29T14:42:29Z",
   "source": "decent_music_top_concert_venues.csv",
   "features": [
     {
@@ -56,31 +56,6 @@
     },
     {
       "type": "Feature",
-      "id": "santiago-bernabeu-stadium-madrid-es",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.6884,
-          40.453
-        ]
-      },
-      "properties": {
-        "name": "Santiago Bernabeu Stadium",
-        "city": "Madrid",
-        "country": "Spain",
-        "continent": "Europe",
-        "capacity": 83186,
-        "venueType": "stadium",
-        "status": "active",
-        "verifiedDate": "2026-07-09",
-        "officialVenueUrl": "https://www.realmadrid.com/",
-        "capacitySourceUrl": "https://en.wikipedia.org/wiki/List_of_stadiums_by_capacity",
-        "coordinatesSourceUrl": "https://nominatim.openstreetmap.org",
-        "continentRank": 3
-      }
-    },
-    {
-      "type": "Feature",
       "id": "bernabeu-madrid-es",
       "geometry": {
         "type": "Point",
@@ -101,7 +76,8 @@
         "officialVenueUrl": "TBD",
         "capacitySourceUrl": "https://en.wikipedia.org/wiki/List_of_stadiums_by_capacity",
         "coordinatesSourceUrl": "https://nominatim.openstreetmap.org",
-        "continentRank": 4
+        "continentRank": 4,
+        "clusterCleanupNote": "Duplicate of 'Santiago Bernabeu Stadium' (santiago-bernabeu-stadium-madrid-es), same venue (diacritic name variant); alias record removed on 2026-10-29 per cluster audit CL007."
       }
     },
     {
@@ -356,31 +332,6 @@
     },
     {
       "type": "Feature",
-      "id": "olympiastadion-berlin-berlin-de",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.248,
-          52.521
-        ]
-      },
-      "properties": {
-        "name": "Olympiastadion Berlin",
-        "city": "Berlin",
-        "country": "Germany",
-        "continent": "Europe",
-        "capacity": 74475,
-        "venueType": "stadium",
-        "status": "active",
-        "verifiedDate": "2026-07-09",
-        "officialVenueUrl": "TBD",
-        "capacitySourceUrl": "https://en.wikipedia.org/wiki/List_of_stadiums_by_capacity",
-        "coordinatesSourceUrl": "https://nominatim.openstreetmap.org",
-        "continentRank": 15
-      }
-    },
-    {
-      "type": "Feature",
       "id": "olympiastadion-berlin-de",
       "geometry": {
         "type": "Point",
@@ -401,7 +352,8 @@
         "officialVenueUrl": "TBD",
         "capacitySourceUrl": "https://en.wikipedia.org/wiki/List_of_stadiums_by_capacity",
         "coordinatesSourceUrl": "https://nominatim.openstreetmap.org",
-        "continentRank": 16
+        "continentRank": 16,
+        "clusterCleanupNote": "Duplicate of 'Olympiastadion Berlin' (olympiastadion-berlin-berlin-de), same venue; alias record removed on 2026-10-29 per cluster audit CL001."
       }
     },
     {
@@ -560,8 +512,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.6881,
-          40.4477
+          -3.59944444,
+          40.43611111
         ]
       },
       "properties": {
@@ -572,7 +524,7 @@
         "capacity": 70813,
         "venueType": "stadium",
         "status": "active",
-        "verifiedDate": "2026-07-09",
+        "verifiedDate": "2026-10-29",
         "officialVenueUrl": "TBD",
         "capacitySourceUrl": "https://en.wikipedia.org/wiki/List_of_stadiums_by_capacity",
         "coordinatesSourceUrl": "https://nominatim.openstreetmap.org",
@@ -756,31 +708,6 @@
     },
     {
       "type": "Feature",
-      "id": "stade-velodrome-marseille-fr",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.3954,
-          43.2699
-        ]
-      },
-      "properties": {
-        "name": "Stade Velodrome",
-        "city": "Marseille",
-        "country": "France",
-        "continent": "Europe",
-        "capacity": 67394,
-        "venueType": "stadium",
-        "status": "active",
-        "verifiedDate": "2026-07-09",
-        "officialVenueUrl": "TBD",
-        "capacitySourceUrl": "https://en.wikipedia.org/wiki/List_of_stadiums_by_capacity",
-        "coordinatesSourceUrl": "https://nominatim.openstreetmap.org",
-        "continentRank": 31
-      }
-    },
-    {
-      "type": "Feature",
       "id": "stade-velodrome-marseille-fr-2",
       "geometry": {
         "type": "Point",
@@ -801,7 +728,8 @@
         "officialVenueUrl": "TBD",
         "capacitySourceUrl": "https://en.wikipedia.org/wiki/List_of_stadiums_by_capacity",
         "coordinatesSourceUrl": "https://nominatim.openstreetmap.org",
-        "continentRank": 32
+        "continentRank": 32,
+        "clusterCleanupNote": "Duplicate of 'Stade Velodrome' (stade-velodrome-marseille-fr), same venue (diacritic name variant); alias record removed on 2026-10-29 per cluster audit CL008."
       }
     },
     {
@@ -2660,8 +2588,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          106.806,
-          -6.2244
+          106.8603,
+          -6.1244
         ]
       },
       "properties": {
@@ -2672,7 +2600,7 @@
         "capacity": 82000,
         "venueType": "stadium",
         "status": "active",
-        "verifiedDate": "2026-07-09",
+        "verifiedDate": "2026-10-29",
         "officialVenueUrl": "TBD",
         "capacitySourceUrl": "https://en.wikipedia.org/wiki/List_of_stadiums_by_capacity",
         "coordinatesSourceUrl": "https://nominatim.openstreetmap.org",
@@ -2910,8 +2838,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          106.805,
-          -6.2205
+          106.8025,
+          -6.2186
         ]
       },
       "properties": {
@@ -2922,7 +2850,7 @@
         "capacity": 77193,
         "venueType": "stadium",
         "status": "active",
-        "verifiedDate": "2026-07-09",
+        "verifiedDate": "2026-10-29",
         "officialVenueUrl": "TBD",
         "capacitySourceUrl": "https://en.wikipedia.org/wiki/List_of_stadiums_by_capacity",
         "coordinatesSourceUrl": "https://nominatim.openstreetmap.org",
@@ -4356,31 +4284,6 @@
     },
     {
       "type": "Feature",
-      "id": "mile-high-stadium-denver-co-us",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -105.022,
-          39.742
-        ]
-      },
-      "properties": {
-        "name": "Mile High Stadium",
-        "city": "Denver, CO",
-        "country": "United States",
-        "continent": "North America",
-        "capacity": 76136,
-        "venueType": "stadium",
-        "status": "active",
-        "verifiedDate": "2026-07-09",
-        "officialVenueUrl": "TBD",
-        "capacitySourceUrl": "https://en.wikipedia.org/wiki/List_of_stadiums_by_capacity",
-        "coordinatesSourceUrl": "https://nominatim.openstreetmap.org",
-        "continentRank": 25
-      }
-    },
-    {
-      "type": "Feature",
       "id": "empower-field-at-mile-high-denver-us",
       "geometry": {
         "type": "Point",
@@ -4401,7 +4304,8 @@
         "officialVenueUrl": "TBD",
         "capacitySourceUrl": "https://en.wikipedia.org/wiki/List_of_stadiums_by_capacity",
         "coordinatesSourceUrl": "https://nominatim.openstreetmap.org",
-        "continentRank": 26
+        "continentRank": 26,
+        "clusterCleanupNote": "Duplicate of 'Mile High Stadium' (mile-high-stadium-denver-co-us), same venue (venue renamed 2017); alias record removed on 2026-10-29 per cluster audit CL003."
       }
     },
     {
@@ -4531,31 +4435,6 @@
     },
     {
       "type": "Feature",
-      "id": "reliant-stadium-houston-us",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.4108,
-          29.68486
-        ]
-      },
-      "properties": {
-        "name": "Reliant Stadium",
-        "city": "Houston",
-        "country": "United States",
-        "continent": "North America",
-        "capacity": 72220,
-        "venueType": "stadium",
-        "status": "active",
-        "verifiedDate": "2026-07-09",
-        "officialVenueUrl": "TBD",
-        "capacitySourceUrl": "https://en.wikipedia.org/wiki/List_of_stadiums_by_capacity",
-        "coordinatesSourceUrl": "https://nominatim.openstreetmap.org",
-        "continentRank": 32
-      }
-    },
-    {
-      "type": "Feature",
       "id": "legion-field-birmingham-us",
       "geometry": {
         "type": "Point",
@@ -4601,7 +4480,8 @@
         "officialVenueUrl": "TBD",
         "capacitySourceUrl": "https://en.wikipedia.org/wiki/List_of_stadiums_by_capacity",
         "coordinatesSourceUrl": "https://nominatim.openstreetmap.org",
-        "continentRank": 34
+        "continentRank": 34,
+        "clusterCleanupNote": "Duplicate of 'Reliant Stadium' (reliant-stadium-houston-us), same venue (renamed NRG Stadium 2011); alias record removed on 2026-10-29 per cluster audit CL005."
       }
     },
     {
